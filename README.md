@@ -1,9 +1,9 @@
 # devopsproject
 
-1. Application is developed using Flask python api. It listens on port 5002. 
-   /messages - GET method - lists all the received messages
-   /messages - POST method - content type as json - accepts the message and write the entry into sqlite3 database. json must contains fields name and messages
-   /messages/name_value - GET method - get the json content stored under this name with an extra field 'palindrome'. This value will be either true or false to denote the message is a  palindrome or not
+1. Application is developed using Flask python api. It listens on port 5002.  
+   /messages - GET method - lists all the received messages  
+   /messages - POST method - content type as json - accepts the message and write the entry into sqlite3 database. json must contains fields name and messages  
+   /messages/name_value - GET method - get the json content stored under this name with an extra field 'palindrome'. This value will be either true or false to denote the message is a  palindrome or not  
 
 2. Application is dockerized
    Run the following commands to build image and publish them
